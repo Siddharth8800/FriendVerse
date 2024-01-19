@@ -1,4 +1,5 @@
-import {pages} from "../components/pagedir"
+import { Link } from "react-router-dom";
+import { pages } from "../components/pagedir";
 
 function NavBar() {
   let navStyle = `bg-gray-800 
@@ -31,7 +32,7 @@ function NavBar() {
           hover:bg-gradient-to-r from-rose-400 to-orange-300 
           hover:text-gray-800"
       >
-        <a href={page + ".html"}>{page}</a>
+        <Link to={`/${page}`}>{page}</Link>
       </p>
     ));
   };

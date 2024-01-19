@@ -32,7 +32,7 @@ function NavBar() {
           hover:bg-gradient-to-r from-rose-400 to-orange-300 
           hover:text-gray-800"
       >
-        <Link to={`/${page}`}>{page}</Link>
+        <Link to={"/" + { page }}>{page}</Link>
       </p>
     ));
   };

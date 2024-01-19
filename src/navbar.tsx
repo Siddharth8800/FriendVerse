@@ -1,7 +1,7 @@
 function NavBar() {
   let pages = ["Home", "Join", "Friend Catalog", "About"];
   let navStyle = 
-  `bg-black 
+  `bg-gray-800 
   text-white 
   p-2.5 
   text-center 

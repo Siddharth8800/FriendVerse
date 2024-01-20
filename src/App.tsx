@@ -6,12 +6,6 @@ import { pages } from "./components/pagedir";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-  // const generateRoutes = () => {
-  //   return pages.map((page) => {
-  //     let Comp = page;
-  //     return <Route key={page} path={`/${page}`} element={<Comp />}></Route>;
-  //   });
-  // };
   return (
     <>
       <BrowserRouter>

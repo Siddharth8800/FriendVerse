@@ -1,6 +1,6 @@
 export const imagePaths: string[] = [
-    '../public/gallery/soumya.jpg',
-    '../public/gallery/hasan.jpg',
-    '../public/gallery/isra.jpg',
-    '../public/gallery/sparsh.jpg',
+    '../gallery/soumya.jpg',
+    '../gallery/hasan.jpg',
+    '../gallery/isra.jpg',
+    '../gallery/sparsh.jpg',
 ];

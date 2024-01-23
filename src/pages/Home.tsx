@@ -1,9 +1,10 @@
 import Footer from "../components/footer";
 import NavBar from "../components/navbar";
+import Title from "../components/title";
 
 function Home() {
   let title = "FriendVerse";
-  const titleStyle = `text-8xl font-extrabold duration-200 text-center text-gray-800 pb-10`;
+  //const titleStyle = `text-8xl font-extrabold duration-200 text-center text-gray-800 pb-10`;
   const paraStyle = `text-2xl font-extrabold duration-200 text-center text-gray-800 w-1/2 mx-auto`;
 
   let paraText = `In the tapestry of life, friendships form the vibrant threads that weave together moments of joy, support, and shared experiences. 
@@ -16,7 +17,7 @@ function Home() {
     <>
       <NavBar />
       <div>
-        <h1 className={titleStyle}>{title}</h1>
+        <Title text="FriendVerse"></Title>
         <p className={paraStyle}>{paraText}</p>
       </div>
       <Footer />

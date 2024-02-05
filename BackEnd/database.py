@@ -1,7 +1,7 @@
 from model import Request
 import motor.motor_asyncio
 
-URL = "mongodb+srv://siddharthkumar195:torquise6980@friendverse.gyvoyhc.mongodb.net/?retryWrites=true&w=majority"
+URL = ""
 
 
 client = motor.motor_asyncio.AsyncIOMotorClient(f'{URL}')

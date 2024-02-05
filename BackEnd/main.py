@@ -5,7 +5,7 @@ from model import Request
 
 app = FastAPI()
 
-origin = ["http://localhost:5071"]
+origin = ["http://localhost:5173"]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origin,

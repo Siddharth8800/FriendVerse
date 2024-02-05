@@ -3,7 +3,7 @@ from pydantic import BaseModel
 class Request(BaseModel):
     Name: str
     Age: str
-    FavoriteArtish: str
-    FavoriteSong: str
-    FavoritePodacat: str
+    FavouriteArtist: str
+    FavouriteSong: str
+    FavouritePodcast: str
     Status: bool

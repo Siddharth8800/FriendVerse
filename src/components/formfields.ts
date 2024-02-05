@@ -9,7 +9,7 @@
 export const FormFields= {
     Name: 'text',
     Age: 'text',
-    FavoriteArtist: 'text',
-    FavoriteSong: 'text',
-    FavoritePodcast: 'text',    
+    FavouriteArtist: 'text',
+    FavouriteSong: 'text',
+    FavouritePodcast: 'text',    
 }
